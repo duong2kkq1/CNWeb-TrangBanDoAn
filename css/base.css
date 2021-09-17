@@ -4,21 +4,24 @@ body html{
     padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#left_header{
-    width: 40%;
+#left_header img{
+    width: 30%;
+    max-width: 120px;
 }
 #right_header{
-    float:right;
-    width: 50%;
+    display: inline;
+    width: 60%;
+    float: right;
 }
 #right_header a{
     text-decoration: none;
     color: rgb(231, 46, 46);
     font-size: 24px;
-    padding:1%;   
+    padding:1%;
+    padding-right: 5%;  
 }
 #toolSearch{
-    transform: translate(0, 300%);
+    padding-top: 80px;
 }
 #toolSearch input{
     border-radius: 5px;
