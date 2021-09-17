@@ -4,46 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wow đồ ăn kìa</title>
-    <link rel="stylesheet" href="Home_style.css">
+    <title>WoW Food</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/Home_style.css">
 </head>
 <body>
-    <div>
-        
-    <div class = "Up_1">
-            <img src="anh/logo.png" alt="Icon WowFood">
-            <nav id="Up1_Menu">
-                <a href="" >Home</a>
-                <a href="" >Catetories</a>
-                <a href="" >Foods</a>
-                <a href="" >Contact</a>
-            </nav>
-    </div>
+    <header id="base_header">
+        <span id = "left_header">
+            <img src="img/logo.png" alt="logo">
+        </span>
+        <span id = "right_header">
+            <a href="">Home</a>
+            <a href="">Categories</a>
+            <a href="">Foods</a>
+            <a href="">Contact</a>
+        </span>
+        <div class="base_title">
+            <div id="toolSearch">
+                <input type="search" name="" id="" placeholder="Search for Foods...">
+                <button>Search</button>
+            </div>
+        </div>
+    </header>
 
-    <div class = "Up_2">
-        <img src="anh/bg.jpg">
-        <div id = "Up2_Tool">
-            <input type="search" name="Box_SearchFoods" placeholder="Search for Foods...">
-            <button>Search</button>
+    <div id="Content_Home">
+        <h2>Explore Foods</h2>
+        <div id="Choose_Food">
+            <span class="Img">
+                <img src="img/burger.jpg" alt="">
+                <h3>Burger</h3>
+            </span>
+            <span class="Img">
+                <img src="img/pizza.jpg" alt="">
+                <h3>Pizza</h3>
+            </span>
+            <span class="Img">
+                <img src="img/momo.jpg" alt="">
+                <h3>Momo</h3>
+            </span>
         </div>
     </div>
-    <div class = "Up_3">
-        <div>
-            <h2>Explore Food</h2>
-            <nav id = "Up3_nav_Top3Foods">
-                <a href="">
-                    <img class="Up3_Top3Foods"src="anh/Burger_01.jpg" alt="Burger">
+    <p id="s" style="transform: translate(-1px,0);">.</p>
+
+    <div id="Content_Menu">
+        <h2>Food Menu</h2>
+        <div id="Menu">
+            <div class="Block">
+                <div class="img" style="height: 200px;display: inline;">
+                    <img src="img/menu-burger.jpg">
+                    <div class="des">
+                        <h3>Food Title</h3>
+                        <p>$2.3</p>
+                        <p>Made with Italian Sauce, Chicken, and oraganice vegetable.</p>
+                        <button>Order now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Block">
+                <div class="img" style="height: 200px;display: inline;">
+                    <img src="img/menu-momo.jpg">
+                    <div class="des">
+                        <h3>Chicken Steam Momo</h3>
+                        <p>$2.3</p>
+                        <p>Made with Italian Sauce, Chicken, and oraganice vegetable.</p>
+                        <button>Order now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Block">
+                <div class="img" style="height: 200px;display: inline;">
+                    <img src="img/menu-pizza.jpg">
+                    <div class="des">
+                        <h3>Food Title</h3>
+                        <p>$2.3</p>
+                        <p>Made with Italian Sauce, Chicken, and oraganice vegetable.</p>
+                        <button>Order now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Block">
+                <div class="img" style="height: 200px;display: inline;">
+                    <img src="img/menu-burger.jpg">
+                    <div class="des">
+                        <h3>Smoky Burger</h3>
+                        <p>$2.3</p>
+                        <p>Made with Italian Sauce, Chicken, and oraganice vegetable.</p>
+                        <button>Order now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Block">
+                <div class="img" style="height: 200px;display: inline;">
+                    <img src="img/menu-momo.jpg">
+                    <div class="des">
+                        <h3>Food Title</h3>
+                        <p>$2.3</p>
+                        <p>Made with Italian Sauce, Chicken, and oraganice vegetable.</p>
+                        <button>Order now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Block">
+                <div class="img" style="height: 200px;display: inline;">
+                    <img src="img/menu-momo.jpg">
+                    <div class="des">
+                        <h3>Food Title</h3>
+                        <p>$2.3</p>
+                        <p>Made with Italian Sauce, Chicken, and oraganice vegetable.</p>
+                        <button>Order now</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a id="visible_item" href="#outside" data-toggle="outside" style="text-decoration: none; color: tomato;">
+                    <h3>See all Foods</h3>
                 </a>
-                <a href="">
-                    <img class="Up3_Top3Foods"src="anh/Pizza_01.jpg" alt="Pizza">
-                </a>
-                <a href=""> 
-                    <img class="Up3_Top3Foods"src="anh/Momo_01.jpg" alt="Momo">
-                </a>
+            </div>
+            <nav id="outside">
+                <div class="Block">
+                    <div class="img" style="height: 200px;display: inline;">
+                        <img src="img/menu-momo.jpg">
+                        <div class="des">
+                            <p>Food Title</p>
+                            <p>$2.3</p>
+                            <p>Made with Italian Sauce, Chicken, and oraganice vegetable.</p>
+                            <button>Order now</button>
+                        </div>
+                    </div>
+                </div>
             </nav>
-                <h3 class="Up3_h3" style="padding-left: 20%;">Burger</h3>
-                <h3 class="Up3_h3">Pizza</h3>
-                <h3 class="Up3_h3">Momo</h3>
         </div>
     </div>
 </body>
