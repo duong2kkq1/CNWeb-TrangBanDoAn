@@ -74,6 +74,7 @@ fieldset{
     border-radius: 5px;
     border-color: transparent;
     background-color: #ff6b81;
+    color: white;
     height: 30px;
     
 }
@@ -81,7 +82,8 @@ fieldset{
     margin-left: 5%;
     border-radius: 5px;
     border-color: transparent;
-    height: 18px;
+    min-height: 80px;
     width: 80%;
     resize: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
