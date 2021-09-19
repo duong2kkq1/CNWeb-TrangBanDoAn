@@ -5,12 +5,12 @@ body html{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #left_header img{
-    width: 30%;
+    width: 25%;
     max-width: 120px;
 }
 #right_header{
     display: inline;
-    width: 60%;
+    width: 70%;
     float: right;
 }
 #right_header a{
@@ -19,6 +19,7 @@ body html{
     font-size: 24px;
     padding:1%;
     padding-right: 5%;  
+    float: right;
 }
 #toolSearch{
     padding-top: 80px;
@@ -38,7 +39,8 @@ body html{
     color:white;
 }
 .base_title{
-    height:200px;
+    box-sizing: content-box;
+    min-height:200px;
     width: 100%;
     background-image: url("bg.jpg");
     text-align:center;
